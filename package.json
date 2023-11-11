@@ -1,0 +1,37 @@
+{
+  "name": "nestjs-express-apollo-federation-practice",
+  "version": "0.0.1",
+  "description": "Practice in Monorepo",
+  "scripts": {
+    "bootstrap": "lerna exec pnpm install",
+    "bootstrap:ci": "lerna exec pnpm ci -- --ignore-scripts",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "test": "jest",
+    "lint": "node node_modules/.bin/prettier --check \"**/*.{js,json,ts,yml,yaml}\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denlly/nestjs-express-apollo-federation-practice.git"
+  },
+  "author": "Daniel Fun <79107345@qq.com, fan91163@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denlly/nestjs-express-apollo-federation-practice/issues"
+  },
+  "homepage": "https://github.com/denlly/nestjs-express-apollo-federation-practice#readme",
+  "dependencies": {
+    "eslint": "^8.53.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.8",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "lerna": "^7.4.2",
+    "prettier": "3.0.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}

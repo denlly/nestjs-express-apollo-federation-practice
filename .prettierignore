@@ -1,0 +1,16 @@
+/build
+**/build/
+**/dist/
+**/.nest
+coverage
+**/coverage
+/node_modules
+**/node_modules
+package.json
+package-lock.json
+pnpm-lock.ymal
+# Custom
+package-lock.json
+**/build/
+**/dist/
+tmp
